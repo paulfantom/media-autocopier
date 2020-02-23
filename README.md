@@ -31,3 +31,8 @@ systemctl daemon-reload
 cp copier.sh /usr/local/bin/
 chmod +x /usr/local/bin/copier.sh
 ```
+
+## TODO
+
+- rewrite to go-lang?
+- containerize?
