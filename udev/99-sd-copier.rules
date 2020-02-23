@@ -1,0 +1,1 @@
+SUBSYSTEM=="block", ACTION=="add", ENV{ID_BUS}=="usb", ENV{DEVTYPE}=="partition", ENV{PARTN}=="1", TAG+="systemd", ENV{SYSTEMD_WANTS}="sd-copier@%E{DEVNAME}.service"

@@ -1,0 +1,6 @@
+[Unit]
+Description=Copy SD card multimedia to location from EXIF data
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/copier.sh /srv/media %I
